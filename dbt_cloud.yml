@@ -10,5 +10,6 @@ projects:
     account-host: "lt434.us1.dbt.com"
     token-name: "cloud-cli-ebd7"
     token-value: "dbtu_AcpyuVk8hI4EduFDRL9NCKkjL2BcvjuijSz_DVPOoV39n4THUE"
-
+dbt-cloud:
+    project-id: 70403103952487
 
