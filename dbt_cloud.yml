@@ -1,0 +1,14 @@
+version: "1"
+context:
+  active-host: "lt434.us1.dbt.com"
+  active-project: "70403103952487"
+projects:
+  - project-name: "Analytics"
+    project-id: "70403103952487"
+    account-name: "Personal"
+    account-id: "70403103944732"
+    account-host: "lt434.us1.dbt.com"
+    token-name: "cloud-cli-ebd7"
+    token-value: "dbtu_AcpyuVk8hI4EduFDRL9NCKkjL2BcvjuijSz_DVPOoV39n4THUE"
+
+
