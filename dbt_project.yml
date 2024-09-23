@@ -1,0 +1,7 @@
+name: dbt_1
+version: '1.0'
+config-version: 2
+
+dbt-cloud:
+    project-id: 70403103952487
+
