@@ -1,0 +1,15 @@
+# ~/.dbt/profiles.yml
+Analytics:  # Make sure this matches the profile in dbt_project.yml
+  target: dev  # This is the environment you want to use; can be dev or prod
+  outputs:
+    dev:
+      type: redshift
+      host: dbtredshiftcluster-k8mrbav6dx4o.chqvoholfh5q.us-east-1.redshift.amazonaws.com
+      user: dbtadmin
+      password: Dbtadmin108!
+      port: 5439
+      dbname: dbtworkshop
+      schema: dbt_kwightman 
+      threads: 4
+      sslmode: require
+
