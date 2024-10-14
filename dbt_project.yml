@@ -36,8 +36,6 @@ clean-targets:         # directories to be removed by `dbt clean`
 # using the `{{ config(...) }}` macro.
 
 models:
-  marts:
-    finance:
-      +materialized: table
-    marketing:
+  jaffle_shop:
+    marts:
       +materialized: table

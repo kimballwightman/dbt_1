@@ -6,4 +6,4 @@ select
     ,amount / 100 as amount -- amount is stored in cents, convert it to dollars
     ,created as created_at
 
-from `dbt-tutorial`.stripe.payment 
+from {{ source('stripe', 'payment') }}
